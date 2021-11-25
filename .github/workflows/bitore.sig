@@ -9,9 +9,9 @@
 # -verbose = false
 # -warning = true
 # -loader = :rake
-# -ruby_opts = []
+# -ruby_opts = [Automated updates]
 # -description = "Run tests" + (@name == :test ? "" : " for #{@name}")
-# -deps = []
+# -deps = [list]
 # -if?=name:(Hash.#:"','")
 # -deps = @name.values.first
 # -name = @name.keys.first
