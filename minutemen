@@ -3,12 +3,10 @@ From: Zachry T Wood III the predecessor to JPMorgan Chase Bank NA and INT
  <zachryiixixiiwood@gmail.com>
 Date: Thu, 25 Nov 2021 23:52:48 -0600
 Subject: [PATCH] Create BTC-USD
-
 ---
  BTC-USD | 22 ++++++++++++++++++++++
  1 file changed, 22 insertions(+)
  create mode 100644 BTC-USD
-
 diff --git a/BTC-USD b/BTC-USD
 new file mode 100644
 index 000000000000..dd8801758ecd
