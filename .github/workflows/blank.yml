@@ -1,0 +1,52 @@
+# This is a basic workflow to help you get started with Actions
+title: minuteman
+name: Pat
+branch: but
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [mainbranch]
+  pull_request:
+    branches: [trunk]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+      - run: version:1:on: 
++ ownership:Zachry T WooD III:on:
++ name:docs-internal:on:
++  long_name:GitHub Help Docs:on:
++  kind:heroku:on:
++  repo:https://github.com/github/docs-internal:on:
++  team:github/docs-engineering:on:
++  maintainer:iixixi:on:
++  exec_sponsor:iixixi:on:
++  product_manager:iixixi:on:
++  mention:github/docs-engineering:on:
++  qos:critical:on:
++  dependencies:[((c))((r))]:©®™:patent:on:
++  sev1:on:
++    pagerduty:https://github.pagerduty.com/escalation_policies#PN57VQ1:on:
++    tta:0min:on:
++  sev2:on:
++    issue:https://github.com/github/docs-internal/issues:on:
++    tta:5:business days:on:
++  sev3:on:
++    slack:docs:engineering:on:
++   Return:run
+          echo Add other actions to build,
+          echo test, and deploy your project.
