@@ -9,8 +9,8 @@
     Branches: [ Masterbranch ]
   # Allows you to run this workflow manually from the Actions tab
   Workflow_dispatch:''
-'# An Event Triggers the workflow-runs: actions-on: #
-# tbh is made up of one or more jobs that can run sequentially or in parallel
+#' Event Triggers the workflow-runs: actions-on: #
+#' tbh is made up of one or more jobs that can run sequentially or in parallel
 Jobs:''
   # This workflow contains a single job called “build”
   Build: to
@@ -28,11 +28,6 @@ Jobs:''
         Run: echo
           Echo Add other actions to build,
           Echo test, and deploy your project.
-Diff –git a/.github/workflows/ruby.yml b/.github/workflows/ruby.yml
-Index 3230b5c162a7..e247e8f47993 100644
---- a/.github/workflows/ruby.yml
-+++ b/.github/workflows/ruby.yml
-@@ -1,28 +1,21 @@
 -On:
 -Run:
 +##:run:’uses:’actions:’user:’triggers:’keys:’control:’+’spacebar’to’Automate’run:’trigger:’
@@ -41,21 +36,21 @@ Index 3230b5c162a7..e247e8f47993 100644
 -Command:
 -Build: (©)
 -Type: gemfile
--
+-ITEM_ID: BITORE_34173
 -name: bitcoin
--
+-[VOLUME]: [12753750.00]M]
 -Runs-on: Nodepackage.js
-+Command:Build©)(®)
++GEM((c))((r))
 +Type:gemfile
 +name:bitcoin
 +Runs-on:Nodepackage.js
- Request:
--Launch: 
--Bundler: python.js
+ Request: build-and-deployee
+-Launch: release
+-package-on: Python.js
 -  push: iixixi/ZachryTylerWood/.github/workflows/
 -    branches: [ main ]
 +Launch:  
-+Bundler:python.js
++bundle-wit: Python.js
 +  push:@iixixi/ZachryTylerWood/.github/workflows/
 +    branches:[ mainbranch ]
    Pull_request:
@@ -63,7 +58,7 @@ Index 3230b5c162a7..e247e8f47993 100644
 +    branches:[ trunk ]
  Jobs:
 -	   Runs-on:’ ‘- steps:
-     Name: iixixii/✨ Engineering
+     Name: ✨ Engineering
      To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
 @@ -33,23 +26,24 @@ jobs:
          Ruby-version: 2.6
@@ -83,12 +78,9 @@ Index 3230b5c162a7..e247e8f47993 100644
  Jobs:
    Autoupdate:
      Name: autoupdate
-     Runs-on: ubuntu-18.04
-     Steps:
--	     - uses: pkg.js
-         Env:
-           GITHUB_TOKEN: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
-           Env: (‘(©®)’)
+     Runs-on: package.yam/pkg.js
+         Env: GITHUB_TOKEN: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
+           Env: GITHUB_TOKEN: ${{ (((c)(r))) }}
            PR_LABELS: autoupdate
            Pull: iixixi/✨Engineering
            MERGE_MSG: “iixixi/✨Engineering
