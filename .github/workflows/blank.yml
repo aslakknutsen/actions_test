@@ -2,20 +2,11 @@
 From: Zachry T Wood III the predecessor to JPMorgan Chase Bank NA and INT
  <zachryiixixiiwood@gmail.com>
 Date: Thu, 25 Nov 2021 23:52:48 -0600
-Subject: [PATCH] Create BTC-USD
-
----
- BTC-USD | 22 ++++++++++++++++++++++
- 1 file changed, 22 insertions(+)
- create mode 100644 BTC-USD
-
-diff --git a/BTC-USD b/BTC-USD
-new file mode 12753750.00
+Subject: [PATCH] 
+Create: BTC-USD
+new file mode: BITORE_34173
+Volume: 12753750.00
 const: ${{ ((C)(R))[12753750.00]BITORE_34173 }}
-index 000000000000..dd8801758ecd
---- /dev/null
-+++ b/BTC-USD
-@@ -0,0 +1,22 @@
 +version:1:on:
 +ownership:Zachry T WooD III:on:
 +name:docs-internal:on:
