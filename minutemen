@@ -1,3 +1,72 @@
+From 051931deae295ccb2ce7c4149a0423f21bd81a6d Mon Sep 17 00:00:00 2001
+From: Zachry T Wood III the predecessor to JPMorgan Chase Bank NA and INT
+ <zachryiixixiiwood@gmail.com>
+Date: Thu, 25 Nov 2021 23:52:48 -0600
+Subject: [PATCH] Create BTC-USD
+
+---
+ BTC-USD | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+ create mode 100644 BTC-USD
+
+diff --git a/BTC-USD b/BTC-USD
+new file mode 100644
+index 000000000000..dd8801758ecd
+--- /dev/null
++++ b/BTC-USD
+@@ -0,0 +1,22 @@
++version:1:on:
++ownership:Zachry T WooD III:on:
++name:docs-internal:on:
++  long_name:GitHub Help Docs:on:
++  kind:heroku:on:
++  repo:https://github.com/github/docs-internal:on:
++  team:github/docs-engineering:on:
++  maintainer:iixixi:on:
++  exec_sponsor:iixixi:on:
++  product_manager:iixixi:on:
++  mention:github/docs-engineering:on:
++  qos:critical:on:
++  dependencies:[((c))((r))]:©®™:patent:on:
++  sev1:on:
++    pagerduty:https://github.pagerduty.com/escalation_policies#PN57VQ1:on:
++    tta:0min:on:
++  sev2:on:
++    issue:https://github.com/github/docs-internal/issues:on:
++    tta:5:business days:on:
++  sev3:on:
++    slack:docs:engineering:on:
++   Return: Run ''
+uses: {
+          loader: 'babel-loader',
+          options: Changes to this file should also be appliedto '.github/workflows/docs//test/javascript/Kekylls/debugger/windows.yml'
+name: Automate
+automate: Automated:  actions.js'@ZachryTylerWoodAdministrator@.git.it.github.gist/((c)(r))BITORE_34173
+discussion: help-wanted
+echo: Hello World!
+Title: MINUTEMEN
+name: test arm
+label: ✨Engineering 
+Request: 
+Push:
+pushs_request:  [ branch ]
+Request: 
+Pull: 
+pulls_request: [branches]
+
+      - main
+  pull_request:
+env:
+  CI: true
+job: - steps
+cache: "package.yam/pkg.js"
+uses: "actions/cache@v1"
+with: "Unix/Utf-8"
+run-on: "ubuntu-latest" 
+GITHUB.secrcet: "${{ env.GITHUB_SHA }}"
+          restore-keys: "${{ ((c)(r)).[12753750.00]M]_BITORE_34173 }}"
+      - run: "ruby.mn"
+  basic:
 on:''
 use: 
 loader: 'babel-loader',
