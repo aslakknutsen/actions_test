@@ -1,0 +1,68 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: 
+Iixixi Update and rename bitore.sig to bitore.sigs
+Latest commit: 
+ History:
+ ntributor:
+
+  
+'"branches":' "---------[mainbranch]"'',:on:
+'"Runs:on:on:'':on:
+'dependencies'(list')'':on:
+'input:' instal-all-prerequisites'':on:
+Runs:' test'':on:
+'Create:' the tasks defined by this task lib'':run,:on:
+'test:' '('(c')'(r')')'':on:
+'list:' dependencies'':run:on:
+"const':' '"{{' '${{['(secret')']}'.{'[VOLUME']}'.{'(ITEM'_ID')}}' }}"':' '{{' :${{'['((((c)(r)))')']}'.{'[12753750'.00']M]}'.{'(BITORE'_34173')'}}}}' }}'"'':runs:on;
+':on:
+'"Loading:...100%::Loadinginstallation_complete:run:on:
+branches: ---------'[trunk']:run:on:
+'"run:'"''run:on:
+'"zachrytwood'@gmail.com',' josephabanksfederalreserve'@gmail.com totalview5nb47241@gmail.com, zachrywood10@google.com, zachryiixixiiwood@gmail.com_zakwarlord7@hotmail.com, zakwarlord7@hotmail.com, shining_120@yahoo.com, zakwarlord8@gmail.com, zakwarlord7@OUTLOOK.COM, OTHER NAMES KAITLYN REESE, JOSEPH A PARASCANDOLA. OF JPMORGAN, AND ZACHARY LEE PRINCE OF GBTC, ZACHARY OF TESLA, ZACHARY...etc:on: ETC ON THE COO CEO OR MA OWNERS LIST OF 12,999 STOCKS THANK YOU:run:.
+<li>07/17/2005'@17:00:00:00CENTRAL-STANDARD-TIME-ZACHRY TYLER WOOD DOB-1994-10-15 SSID-633-44-1725<li>:on:
+:on:
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+          echo Add other actions to build,
+          echo test, and deploy your project.
