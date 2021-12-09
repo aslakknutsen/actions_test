@@ -1,0 +1,85 @@
+#:  action uses: workflow-call:on:
+ ## to help you get started with Actions
+name: ci
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+    - Echo: Enabled'',''True','''200''Enabled''
+# Run::'job:
+# Job: 'runs-on:' Steps
+# Steps:'' ''On:</test:></Automate:All>:Publish::Release'@:::Deploy:::Launch::ACH creation integration adk api
+# Controls when the workflow will run
+on:
+## ::#/Trigger workflow_call:-on,
+Push: pull_request
+Event: Runs test'@ci but only for the Masterbranch
+  Push:' 
+- branches:' '[master'],
+  pull_request:' 
+- branches:''[trunk'],
+    branches: [ master ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatchname: ci
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+# Step:' "-"''
+'## :Runs::/workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: 
+Iixixi Update and rename bitore.sig to bitore.sigs
+Latest commit: 
+ History:
+ ntributor:
+
+  
+'"branches":' "---------[mainbranch]"'',:on:
+'"Runs:on:on:'':on:
+'dependencies'(list')'':on:
+'input:' instal-all-prerequisites'':on:
+Runs:' test'':on:
+'Create:' the tasks defined by this task lib'':run,:on:
+'test:' '('(c')'(r')')'':on:
+'list:' dependencies'':run:on:
+"const':' '"{{' '${{['(secret')']}'.{'[VOLUME']}'.{'(ITEM'_ID')}}' }}"':' '{{' :${{'['((((c)(r)))')']}'.{'[12753750'.00']M]}'.{'(BITORE'_34173}} )
+}},
+:BUILD::
+Publish:
+Launch:
+Release:
+Deploy: repository:type:containers/DOCKER.Gui.sgn-aSync'repo'@moejojojojo/bitore.sig/paradice,const: '-a'Sync={DataSync
