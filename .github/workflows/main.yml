@@ -1,12 +1,14 @@
-#:##::/-on:on:Run::/workflow-call;on:
-name: CI
-# Controls when the workflow will run
-on: push_request 
- ## events but only for the master branch
-  push:
-    branches: [mainbranch]
-  pull_request:
-    branches: [trunk]
+on:
+- on:on:
+Run::workflow_call:-on:on:
+::Build:name:on:
+name: CI:on:
+# Controls when the workflow will run:,on:
+# push_request
+- Branch: '[trunk']:on:
+- branches: '[mainbranch']:on:
+- pull_request:
+- branches:'[paradice']:on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
