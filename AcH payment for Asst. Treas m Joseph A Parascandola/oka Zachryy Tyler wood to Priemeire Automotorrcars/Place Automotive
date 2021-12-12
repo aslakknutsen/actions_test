@@ -1,0 +1,32 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo:<Title/Header/label>INSTANT ACH VERIFICATION PAYMENT initiating Company>United States Routing Number instant payment verification for Asst. Treas. JOSEPH A. PARASCANDOLA O.K.A. ZACHRY TYLER WOOD</label>
+'</##Automate:> </#Pull::></@> </action>
+'<Title/Header/label>Reciepient</label></div>
+</line2></Name/Address></label></blk:spc> </Phone-Number></label>
+</Phone></label>
+</label></Number>_<label> </Fax </label></Number>_</blk:spc>_</label>
+</E-Mail><label>
+ </StateZip></label>
+</#Pull:></@></Name: South_State::</focus>061103852</cc>-</a>11101017</a>031000053</b>031000040</c></label>
+</#Push::></@></Name>JPMorgan_CHASE_Bank_NA::</focus>021000021</cc>-</a>_<aa>_</b>_</c></label>
+</Automate:All>transmital
+# Results:''''?'Enabled'',''True','''200''Enabled''
+# Run::'job:
+# Job: 'runs-on:' Steps
+# Steps:'' ''On:</test:></Automate:All>:Publish::Release'@:::Deploy:::Launch::ACH creation integration adk api
+
