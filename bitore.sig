@@ -1,26 +1,34 @@
-title: Automates
-name: Pat
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo hello,-World!
-    - name: Run a multi-line script
-      run:  :On::'Runs::/Starts:workflow_calls:-on'"''
+title: Automate
+##: Automates: toggle:-on:oncurl \
+  -H "Accept: application/vnd.github.v3+json" \
+  https://api.github.com/repos/octocat/hello-world/traffic/popular/referrers
+JavaScript (@octokit/core.js)
+await octokit.request('GET /repos/{owner}/{repo}/traffic/popular/referrers', {
+  owner: 'octocat',
+  repo: 'hello-world'
+})'"name": '((c)'":,'"''
+'".dirname": is'='==yargs(ARGS)).)"; /
+.env: Pat
+-on
+job:
+build: -step
+runs-on: ubuntu-latest
+steps: use: action.js/checkout@v1
+name: Run a one-line script
+Echo hello,-World!
+name: Run a multi-line script
+run-on: Run::/Starts:workflow_calls:-on'"''
 'workflow_calls-on::' :"const-action_script:' '-Automate-build/.github/workflows/blank.yml'@Iixixi
 '# This is a basic workflow to help you get started with Actions
 'Name: CI
 '# Controls when the workflow will run-on: # Triggers the workflow on push or pull request events but only for the Masterbranch
   Push:
-    Branches: [ mainbranch ]
+    Branch: [ mainbranch ]
   Pull_request:
-    Branches: [ Masterbranch ]
-  # Allows you to run this workflow manually from the Actions tab
-  Workflow_dispatch:''
-#' Event Triggers the workflow-runs: actions-on: #
+    branches: [ trunk ]
+  ## Allows you to run this workflow manually from the Actions tab
+Workflow_dispatch:''
+ ## Event-Triggers the workflow-runs: actions-on: #
 #' tbh is made up of one or more jobs that can run sequentially or in parallel
 Jobs:''
   # This workflow contains a single job called “build”
@@ -121,37 +129,8 @@ Jobs:
       - name: Run linter
       -  run: deno lint
       -  name: Run tests
-        - run: deno test -A –unstable
-Loading complete
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# 💁 The OpenShift Starter workflow will:
-# - Checkout your repository
-# - Perform a container image build
-# - Push the built image to the GitHub Container Registry (GHCR)
-# - Log in to your OpenShift cluster
-# - Create an OpenShift app from the image and expose it to the internet
-
-# ℹ️ Configure your repository and the workflow with the following steps:
-# 1. Have access to an OpenShift cluster. Refer to https://www.openshift.com/try
-# 2. Create the OPENSHIFT_SERVER and OPENSHIFT_TOKEN repository secrets. Refer to:
-#   - https://github.com/redhat-actions/oc-login#readme
-#   - https://docs.github.com/en/actions/reference/encrypted-secrets
-#   - https://cli.github.com/manual/gh_secret_set
-# 3. (Optional) Edit the top-level ‘env’ section as marked with ‘🖊️’ if the defaults are not suitable for your project.
-# 4. (Optional) Edit the build-image step to build your project.
-#    The default build type is by using a Dockerfile at the root of the repository,
-#    but can be replaced with a different file, a source-to-image build, or a step-by-step buildah build.
-# 5. Commit and push the workflow file to your default branch to trigger a workflow run.
-
-# 👋 Visit our GitHub organization at https://github.com/redhat-actions/ to see our actions and provide feedback.
-
-Name: OpenShift
-
-Env:
-  # 🖊️ EDIT your repository secrets to log into your OpenShift cluster and set up the context.
+        - run: test'@travis.yml
+  # log into your OpenShift cluster and set up the context.
   # See https://github.com/redhat-actions/oc-login#readme for how to retrieve these values.
   # To get a permanent token, refer to https://github.com/redhat-actions/oc-login/wiki/Using-a-Service-Account-for-GitHub-Actions
   OPENSHIFT_SERVER: ${{ secrets.OPENSHIFT_SERVER }}
