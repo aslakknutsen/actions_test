@@ -1,16 +1,16 @@
-title: Automate
-##: Automates: toggle:-on:on
-curl fetch,-
-  -H "Accept: application/vnd.github.v3+json" \
+Title: Automate
+Automates: toggle:-on:on:
+curl fetchs,-
+"Accept: application/vnd.github.v3+json" \
   https://api.github.com/Repo'-sync/octocokit/hello-world/traffic/popular/referrers
-JavaScript (@octokit/core.js)
-await octokit.request('GET /repos/{owner}/{repo}/traffic/popular/referrers', {
-  owner: 'octocat',
-  repo: 'hello-world'
+javascript'@octokit/pkg.js
+await octokit.request: GET.git.it/repo-a'Sync={data'@rendeerer/SuperLinter
+owner: 'octocokit
+repo'-Sync={data:'@hello** **World!'
 })'"name": '((c)'":,'"''
-'".dir_name": is'='==yarg(ARGS)).)"; /
-env: Pat
--on
+'".dir=is'==yarg(AGS)).)"; /
+name: Pat
+-branch: -but
 job:
 build: -step
 runs-on: ubuntu-latest
@@ -27,27 +27,14 @@ run-on: Run::/Starts:workflow_calls:-on'"''
     Branch: [ mainbranch ]
   Pull_request:
     branches: [ trunk ]
-  ## Allows you to run this workflow manually from the Actions tab
-Workflow_dispatch:''
- ## Event-Triggers the workflow-runs: actions-on: #
-#' tbh is made up of one or more jobs that can run sequentially or in parallel
-Jobs:''
-  # This workflow contains a single job called “build”
-  Build: to
-    # The type of runner that the job will run on
-    Runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    Steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
--	Uses: actions/checkout@v2
-      # Runs a single command using the runners shell
--	Name: Run a one-line script
-        Runs: echo: Hello, world!
-       ## #Run: a set of commands using the runners shell
--	Name: Runs a multi-line-one-line-build_script
-        Run: echo
-          Echo Add other actions to build,
-          Echo test, and deploy your project.
+Checkout: Uses: actions/checkout@v2
+Runs a single command using the runners 
+name: Run a one-line script
+Echo: Hello, world!
+Run: Runs a multi-line-one-line-build_scrip
+Run: echo
+Add: other actions to build,
+test: and deploy your project.
 -On:
 -Run:
 +##:run:’uses:’actions:’user:’triggers:’keys:’control:’+’spacebar’to’Automate’run:’trigger:’
