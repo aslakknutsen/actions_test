@@ -1,14 +1,15 @@
 title: Automate
-##: Automates: toggle:-on:oncurl \
+##: Automates: toggle:-on:on
+curl fetch,-
   -H "Accept: application/vnd.github.v3+json" \
-  https://api.github.com/repos/octocat/hello-world/traffic/popular/referrers
+  https://api.github.com/Repo'-sync/octocokit/hello-world/traffic/popular/referrers
 JavaScript (@octokit/core.js)
 await octokit.request('GET /repos/{owner}/{repo}/traffic/popular/referrers', {
   owner: 'octocat',
   repo: 'hello-world'
 })'"name": '((c)'":,'"''
-'".dirname": is'='==yargs(ARGS)).)"; /
-.env: Pat
+'".dir_name": is'='==yarg(ARGS)).)"; /
+env: Pat
 -on
 job:
 build: -step
