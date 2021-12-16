@@ -1,13 +1,7 @@
- ## You can adjust the behavior by modifying this file.
- ## For more information, see:
- ## htps://github.com/actions/slate
-name: slate
-on: 
-Run:
-job:
-steps:
-runs-on: ubuntu- latest
-Display: pops-up: windows/famerwork
+Run: name
+name: kite/,package.json
+run-on: ubuntu-latest
+Display: Famerwork-pop-up
 permissions:
 issues: write
 pull-request: repo sync
@@ -20,12 +14,13 @@ parse: "build"''
 export: "[VOLUME]"''
 VOLUME: "[12753750.00]"''
 ITEM_ID: BITORE_34173''
-hash: "00000000760ebeb5feb4682db478d29b31332c0bcec46ee487d5e2733ad1ff10''
+hash: ",'"
+''
 confirmations": 104856''
 size: "'[12753750'.00']"''
 merkelroot: "52649d78c1072266dd97f7447d7aab894d47d3a375e7881ade4ed3c0c47cb4cc",
 version: "1"'"''
 require: "bitore.sig",
-addresses: [""'_'?'_'"']"''
+addresses: [""'_?_'"']"''
 Volume: "[12753750'.00']",
             <li>zachryiixixiiwood@gmail.com<li>
