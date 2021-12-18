@@ -2,10 +2,10 @@ title: ci
 -on: [push]
 -jobs: 
 - build: 
-run-on: ubuntu-18.04
+run-on: ubuntu-latest'@v-18.04
 use: action.js/checkout@v1
 name: Run a one-line script
-run: echo Hello, world!
+run: echo hello World!
 name: Run a multi-line 
 #:##/#!/user/bin/Bash/Pat/but/MINUTMEN/Pat/but'@moejojojojo'@ZachryTylerWood'@Administrator'@.git.it/paradice/bitore.sig
 :GLOW7::
@@ -13,20 +13,19 @@ name: ci
 Runs::/:Automate::Automates
 Automates Automatically-Runs:on:on:
 Run::/' starts'"''
-starts::/Build::/Script
-script:' '"name'"''
+starts::/Build::/Script:name'"''
+name'"''
 name:' bitore.sig when Vanessa marked down my website for cake/slate washing r rake/slate when I made it the second time on 07-17-2005 4 years after maven jernall thinball whisk , in January 22, 2001 and <-- I know this is supposed to be  but the a riot changed it too jakes a typo but I know it did it automatically to signify I just recreated the original I made. So I love you and thank you and God Bless you all so much 
-+Email notifications: send to zachryiixixiiwood@gmail.com, josephabanksfederalreserve@gmail.com, nasdaqgoogcoo@gmail.com Zachry Tyler Wood SSID 633-44-1725, DOB 10-15-1994': '"build-and-deployee'"''
-+build-and-deployee: repo sync
-+repo' sync: bitore.sig'@moejojojojo'@.github/workflows/blank.yml’’@zw/Po/minutemen 01-16-2001’@BY ZachryTWood’@Admibistrator’@.git.it/Po/MINUTMAN/fork-and-knife/repo’-Sync
-+Runs-on: 
-+-' '"Discussions: Help’ Wanted/#54/a'Sync’=:{repo'@mojoejoejoejoe’@Stargazers/paradice'@git.github.git.it/gist/
-+-' '"Branch: [paradice'@git.github.git.it]
-+-' '"Amount’”':' ‘”’[‘'”VOLUME’”']'”’’
-+-' '"token’”':' '”'’(((c))’((r)))’‘”’’
-+-' '"ITEM_ID: BITORE_34173
-+-' '"Title: ci
-+-' '"name'"':' '"🪁'"''
+e-mail notifications: send to zachryiixixiiwood@gmail.com, josephabanksfederalreserve@gmail.com, nasdaqgoogcoo@gmail.com Zachry Tyler Wood SSID 633-44-1725, DOB 10-15-1994': '"build-and-deployee'"''
+build-and-deployee: repo sync+repo' sync: bitore.sig'@moejojojojo'@.github/workflows/blank.yml’’@zw/Po/minutemen 01-16-2001’@BY ZachryTWood’@Admibistrator’@.git.it/Po/MINUTMAN/fork-and-knife/repo’-Sync
+Runs-on: 
+discussions: Help’ Wanted/#54/a'Sync’=:{repo'@mojoejoejoejoe’@Stargazers/paradice'@git.github.git.it/gist/
+Branch: [paradice'@git.github.git.it]
+Amount’”':' ‘”’[‘'”VOLUME’”']'”’’
+token’”':' '”'’(((c))’((r)))’‘”’’
+ITEM_ID: BITORE_34173
+Title: ci
+name'"':' '"🪁'"''
 +-' '"run-on'"':' '"Gunicorn/UniX/Utf-8'"''
 +##' '"#:-on: control the workflow_call-on-run-on: and' '"#'"':' '"actions-Event-Trigger"''
 +'"starts::/'"':' '"workflow_call-on:-on:-on-but','but',':'-only-for-the-Masterbranch'"''
@@ -69,8 +68,9 @@ name:' bitore.sig when Vanessa marked down my website for cake/slate washing r r
 +-  push: repo’Sync’@https://www.github.com/iixixi/ZachryTylerWood/.github/workflows/
 +-	   Branches: [ mainbranch ]
 +-	 branches:[ trunk ]
-+ Jobs:
-+-	   Runs-on:’ ‘- steps:
+Jobs
+:
+Runs-on:’ ‘- steps:
 +     Name: ARGS test
 +         Ruby-version: 2.6
 +     Name: Install dependencies
