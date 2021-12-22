@@ -1,0 +1,60 @@
+title: Build and Deployee
+name: Repo'-sync''
+on:''
+push:''
+- '[Branch']'': 
+- '['mainbranch']''
+pull_requests:
+Request:''
+Pull:''
+- '[branches']'': 
+- '['master']''
+env:''
+CARGO_TERM_COLOR: always''
+jobs:''
+:Build::''
+-runs-on: ubuntu-latest''
+-steps:''
+-uses: actions/checkout@v2'' 
+-name: build-and-deployee''
+-run: car''
+const:''
+-verbose''
+-name: Runs test''
+-test: ci
+Automates: - 
+name: deno.yml
+on:
+push_request:
+Branch:
+'-[mainbranch']
+Request:
+Pulls:
+pull_request:
+'-branches: '[trunk']''
+jobs: Run
+Run: test'@travis.yml''
+package-on: Python.js''
+token: (((c)(r)))''
+uns:  Windows-latest/linux32_86/fedora/os''
+bundler: deno:' ["v1.x", "nightly"]''
+- 'os:' '[fedoraOS/linux32_86/windows-latest/ubuntu-latest']''
+- 'steps:'use' - 
+- 'name: Setup repo''
+- 'uses: actions/checkout@v1''
+- 'name: 🪁''
+- 'uses: cow/ant'
+-with: rake.i/rust.u''
+'deno-version:' '$'{'{linux/cake/kite'}'}''
+#'tests across multiple Deno versions''
+'- name: Cache Dependencies''
+'run: deno cache deps.ts''
+name: Run Tests''
+run: deno test''
+::Build:' sverdne''
+Runs: Celery's install
+- verbose: Cookieskeycutter 
+- Celery's
+- chef cooke's install
+::Build: bitore.sig
+Return: 'Run ''
