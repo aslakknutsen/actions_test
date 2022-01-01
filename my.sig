@@ -1,19 +1,18 @@
-#: 
-###::/on::/Automate::/:':-Action_Events_Trigger-on::on: Automatically::'::Automates:'::Automate:' '"#'"''
-'"login": "octocokit",
-"id":"moejojojojo'@pradice/bitore.sig/ pkg.js"
-'require': 'jest'
-'require': 'package.json'
-'require': 'Rakefile'
-'require': 'test'
-'require': 'pkg.js'
-POST '/payload' do
-Push = JSON.parse(request.body.read}
+# BEGIN::
+# ::GLOW7:
+# login: octocokit'@moejojojojo'@pradice/bitore.sig
+# require: test
+# require:package.json
+# require: Rakefile
+# require: test
+# require: pkg.js
+# POST: payload/do
+# Push = JSON.parse(request.body.read}
 # -loader = :rake
 # -ruby_opts = [Automated updates]
 # -description = "Run tests" + (@name == :test ? "" : " for #{@name}")
 # -deps = [list]
-# -if?=name:(Hash.#:"','")
+# -h={#(_?_)
 # -deps = @name.values.first
 # -name = @name.keys.first
 # test/test*.rb" if @pattern.nil? && @test_files.nil?
@@ -31,19 +30,15 @@ Push = JSON.parse(request.body.read}
 # test: heroku'@'#'!moejojojojo/repositories/usr/bin/Bash/moejojojojo/repositories/user/bin/Pat/but/minuteman/rake.i/rust.u/pom.XML/Rakefil.IU/package.json/pkg.yml/package.yam/pkg.js/Runestone.xslmnvs line 86
 # def initialize(name=:test)
 # name = ci
-# libs = Bash
-# pattern = list
-# options = false
+# libs = bitore.sig
+# options = true
 # test_files = pkg.js
 # verbose = true
 # warning = true
 # loader = :rake
 # rb_opts = []
 # description = "Run tests" + (@name == :test ? "" : " for #{@name}")
-# deps = []
-# if @name.is_a'?','"':'"'('"'#'"'.Hash':'"')'"''
-# deps = @name.values.first
-# name=::rake.gems/.specs_keyscutter
+# name=::rake.gem/.specs/chef'S-book
 # pattern = "test/test*.rb" if @pattern.nil? && @test_files.nil?
 # definename=:ci
 ##-on: 
@@ -90,7 +85,7 @@ name[test]
 # Array=: string of command line options to pass to ruby when running test loader.
 # verbose[false]
 # if verbose test outputs desired:= (default is false)
-# warning[Framework]
+# warning_framework-springs-up-on-workflows_call: dispatch
 # Request that the tests be run with the warning flag set. E.g. warning=true implies “ruby -w” used to run the tests. (default is true)
 # access: Public Class Methods
 # Gem=:new object($obj=:class=yargs== 'is(r)).)=={ |BITORE_34173| ... }
@@ -1438,14 +1433,7 @@ IRS provides new guidance on accounting method changes for CFCs
 1-Oct-21                                                                                                                                        
 Automatic procedures to change a CFC’s depreciation method                                                                                                                                        
 TOPICS                                                                                                                                        
-International Tax                                                                                                                                        
-                                                                                                                                        
-                                                                                                                                        
-                                                                                                                                         
-                                                                                                                                        
-Repatriation Tax, GILTI & BEAT                                                                                                                                        
-Foreign Subsidiaries                                                                                                                                        
-EXECUTIVE                                                                                                                                        
+International Tax                                                                                                                                                                                                                                                                                
                                                                                                                                         
                                                                                                                                         
 SUMMARY                                                                                                                                        
@@ -1495,10 +1483,9 @@ Footnotes
 12.  The IRS could argue by analogy to Sec. 964(e)(3), which states that a deemed sale is to be treated as an actual sale for the purpose of implementing the rule that gain from the sale by a CFC of another CFC is to be included in gross income as a dividend. A counterargument could then be made that Sec. 964(e) states explicitly that the deemed sale rule applies solely "for purposes of this subsection," meaning only in the context of a sale by a CFC of another CFC.                                                                                                                                        
 13.  In a more authoritative setting, a district court did in fact analyze a case where a CFC made a nonliquidating distribution of appreciated property (shares in a company) to its U.S. parent. See Pittway Corp., 887 F. Supp. 164 (N.D. Ill. 1995), aff'd, 88 F.3d 501 (7th Cir. 1996). A discussion of the CFC and Subpart F rules is noticeably absent from the court's analysis.                                                                                                                                        
 14.  Note that unlike the statutory provisions of the Code, the Sec. 954 regulations, which were promulgated three decades later (T.D. 8618, 60 Fed. Reg. 46500 (Sept. 7, 1995)), do in fact take a GILTI-like definitional approach, but only specifically in the context of sales of property by a CFC. Under Regs. Sec. 1.954-2(e)(3), sales of all types of property are initially included within the FPHCI category of sales of "property that does not give rise to any income" before various exceptions are provided.                                                                                                                                        
-                                                                                                                                        
-                                                                                                                                        
-                                                                                                                                        
-                                                                                                                                        
-, CPA, is a partner, and Nathan Mintz, Esq., is tax counsel, both at Expat Tax Professionals LLC in Hackensack, N.J. For more information about this article, contact thetaxadviser@aicpa.org.                                
+:Build::Publish::
+Launch: Release
+Deploy: repo sync'@iixixi/iixixii/README.md/contributing.md                                                                                                                                                                                                                        
+                                                                                                                                        , Esq., is tax counsel, both at Expat Tax Professionals LLC in Hackensack, N.J. For more information about this article, contact thetaxadviser@aicpa.org.                                
 
 
