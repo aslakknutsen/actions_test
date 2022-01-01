@@ -7,8 +7,8 @@
 'require': 'Rakefile'
 'require': 'test'
 'require': 'pkg.js'
-post '/payload' do
-  push = JSON.parse(request.body.read}
+POST '/payload' do
+Push = JSON.parse(request.body.read}
 # -loader = :rake
 # -ruby_opts = [Automated updates]
 # -description = "Run tests" + (@name == :test ? "" : " for #{@name}")
@@ -16,20 +16,19 @@ post '/payload' do
 # -if?=name:(Hash.#:"','")
 # -deps = @name.values.first
 # -name = @name.keys.first
-# -pattern = "test/test*.rb" if @pattern.nil? && @test_files.nil?
-# -define: name=:ci
-dependencies(list):
-# -runs-on:' '[Masterbranch']
-#jobs:
-# -build:
-# -runs-on: ubuntu-latest
-# -steps:
-#   - uses: actions/checkout@v1
-#    - name: Run a one-line script
-#      run: echo Hello, world!
-#    - name: Run a multi-line script
-#      run=:name: echo: hello.World!
-#        echo test, and deploy your project'@'#'!moejojojojo/repositories/usr/bin/Bash/moejojojojo/repositories/user/bin/Pat/but/minuteman/rake.i/rust.u/pom.XML/Rakefil.IU/package.json/pkg.yml/package.yam/pkg.js/Runestone.xslmnvs line 86
+# test/test*.rb" if @pattern.nil? && @test_files.nil?
+# name=: ci
+# dependencies(test):
+# runs-on: '[Masterbranch']
+# build:
+# runs-on: ubuntu-latest
+# steps:
+# uses: actions/checkout@v1
+# name: Run a one-line script
+# run: Hello, world!
+# name:Run-a-multi-line-multi-command-line_build_script
+# run=:name: echo: hello.World!
+# test: heroku'@'#'!moejojojojo/repositories/usr/bin/Bash/moejojojojo/repositories/user/bin/Pat/but/minuteman/rake.i/rust.u/pom.XML/Rakefil.IU/package.json/pkg.yml/package.yam/pkg.js/Runestone.xslmnvs line 86
 # def initialize(name=:test)
 # name = ci
 # libs = Bash
@@ -784,7 +783,7 @@ jobs:
         id: create-pull
         uses: repo-sync/pull-request@65194d8015be7624d231796ddee1cd52a5023cb3
         env:
-          GITHUB_TOKEN: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
+secrets: {{' '${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
         with:
           source_branch: repo-sync
           destination_branch: main
@@ -1500,14 +1499,6 @@ Footnotes
                                                                                                                                         
                                                                                                                                         
                                                                                                                                         
-AICPA.org                                                                                                                                        
-AICPA Member Service Center                                                                                                                                        
-AICPA Tax Section                                                                                                                                        
-AICPA Store                                                                                                                                        
-Journal of Accountancy                                                                                                                                        
-FM magazine                                                                                                                                        
-                                                                                                                                        
-© 2021 Association of International Certified Professional Accountants. All rights reserved.                                                                                                                                        
- Administrative Law Contributing Representatives: Joshua Ashman, CPA, is a partner, and Nathan Mintz, Esq., is tax counsel, both at Expat Tax Professionals LLC in Hackensack, N.J. For more information about this article, contact thetaxadviser@aicpa.org.                                
+, CPA, is a partner, and Nathan Mintz, Esq., is tax counsel, both at Expat Tax Professionals LLC in Hackensack, N.J. For more information about this article, contact thetaxadviser@aicpa.org.                                
 
 
