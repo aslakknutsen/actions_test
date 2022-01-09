@@ -1,5 +1,7 @@
+BEGIN:
+GLOW7:
 title: Build and Deployee
-name: Repo'sync
+Name: Repo'sync
 on:
 push:
 - '[' Branch' ']
