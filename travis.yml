@@ -74,7 +74,7 @@ uses: tux/ant
 deno-version:
 #'tests across multiple Deno versions
 name: Cache Dependencies
-'run: deno cache deps.ts
+run: deno cache deps.ts
 name: Runs ciTests
 run: deno test
 :Build:: sverdne
@@ -83,8 +83,8 @@ Parse: build
 
 const: $qb.rm_Gemfile_Makefile/Cookieskeycutter.gems/.spec
 install: 
-- -m install
+-m install
 install: pyread ~V
-- name: frosty'S 
+name: frosty'S 
 :Build:: bitore.sig
 Return: Run''
