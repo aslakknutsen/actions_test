@@ -3,7 +3,7 @@ build_script: BEGIN
 BEGIN:
 GLOW7:
 title: Build and Deployee
-Name: Repo'sync
+Name: repo-sync
 on:
 push:
 - '[' Branch' ']
@@ -20,41 +20,56 @@ jobs:
 run-on: ubuntu-latest
 job: use: - steps:
 use: actions/checkout@v2
-Name: build-and-deployee
+Name: 
+- Repo Sync
 run: 
-Binstall: undle: ruby.qm
+Binstall: 
+- ruby.qm $install
 const:
 Verbose:
-name: Tests
-test: Tests'@travis.yml
-Automates: - 
-bundle-on: deno.yml 
+Run: Tests
+Tests: ci'@travis.yml
+Automates: 
+- -
+bundle-on: 
+- deno.yml 
 
-Pushs: push_request:
-push_request: - '[' Branch' ']
-Branch: - '[' Masterbranch' ']
+Push: 
+- push_request:
+push_request: 
+- '[' Branch' ']
+Branch: 
+- '[' Masterbranch' ']
 
-Request: Pulls''
+Request: 
+:Pulls::
 
 
-:Pulls:: pulls_request
-pulls_request: -'[branches']
-branches: - '[' TREE' ']
+pull_request:
+pull_request: 
+-'[branches']
+branches: 
+- '[' TREE' ']
 job: Run
-Run: Tests'@travis.yml
-Package: Python.js
-secrets: ((c)(r))
-uns:  Windows-latest/linux32_86/fedora/fedoraOS/linux32_86/WindowsXP-latest
-bundler: deno:' 
+Run: 
+- Tests'@travis.yml
+Package: 
+- Python.js
+secrets: 
+-( ((c)(r)))
+uns:  
+- Windows-latest/linux32_86/fedora/fedoraOS/linux32_86/WindowsXP-latest
+bupackage: deno:' 
 autoupdate: Every -3 sec''
 
-schedule: '[Daily"]
+schedule: Daily 
+tta: Every -3 sec
 
-- step: use: - 
-- name: Setup repo
-- uses: actions/checkout@v1
-- name: 🪁
-- uses: cow/ant
+step: use: - 
+name: Setup repo
+use: actions/checkout@v1
+name: 🪁
+uses: tux/ant
 -with: Rust/slate
 deno-version:
 #'tests across multiple Deno versions
@@ -63,13 +78,13 @@ name: Cache Dependencies
 name: Runs ciTests
 run: deno test
 :Build:: sverdne
-Runs: frosty'S install
+Runs: frosty'S
 Parse: build
 
 const: $ruby.Gem.secrets/Makefile/rakefile.gem.specs/Cookieskeycutter 
-install:
-- -m
-- pyread ~V
+install: 
+- cd install
+install: pyread ~V
 - name: frosty'S 
 :Build:: bitore.sig
-Return: 'Run ''
+Return:' Run''
