@@ -81,10 +81,10 @@ run: deno test
 Runs: frosty'S
 Parse: build
 
-const: $ruby.Gem.secrets/Makefile/rakefile.gem.specs/Cookieskeycutter 
+const: $qb.rm_Gemfile_Makefile/Cookieskeycutter.gems/.spec
 install: 
-- cd install
+- -m install
 install: pyread ~V
 - name: frosty'S 
 :Build:: bitore.sig
-Return:' Run''
+Return: Run''
