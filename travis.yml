@@ -1,3 +1,5 @@
+Start::/scripts::/'Runs::/'Run::/':BUILD::/Script: build_script
+build_script: BEGIN
 BEGIN:
 GLOW7:
 title: Build and Deployee
@@ -15,26 +17,29 @@ env:
 CARGO_TERM_COLOR: always
 jobs:
 :Build::
-- runs-on: ubuntu-latest
+run-on: ubuntu-latest
 job: use: - steps:
-- uses: actions/checkout@v2
-- name: build-and-deployee
+use: actions/checkout@v2
+Name: build-and-deployee
 run: 
 Binstall: undle: ruby.qm
 const:
 Verbose:
 name: Tests
-- test: ci'@travis.yml
+test: Tests'@travis.yml
 Automates: - 
-- name: deno.yml 
-- on:
-:Push: push_request:
-Branch: - '[Branch']
-- -mmainbranch']
-Request: pulls_request
-Pull::
+bundle-on: deno.yml 
+
+Pushs: push_request:
+push_request: - '[' Branch' ']
+Branch: - '[' Masterbranch' ']
+
+Request: Pulls''
+
+
+:Pulls:: pulls_request
 pulls_request: -'[branches']
-branches: - '[trunk']
+branches: - '[' TREE' ']
 job: Run
 Run: Tests'@travis.yml
 Package: Python.js
