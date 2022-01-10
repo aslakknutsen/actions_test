@@ -305,6 +305,15 @@ Run-on: grosty'S -chefbook Celery's install
 - chef -chef'$ 's install
 
 ::Build: bitore.sig
+  diff --git a/content/packages/learn-github-packages/introduction-to-github-packages.md b/bitore.sig/pkg.js/package.json/.JAR/,RUNKIT/RUNETINME/ENVIRONMENT/WinraWr.Zip/WIZARD/INSTALL/stc/dir.dist/index
+  jdk.java.net
+
+similarity index 100%
+
+rename from content/packages/learn-github-packages/introduction-to-github-packages.md
+
+rename to bitore.sig
+  
 
 Return: 'Run ''
 
