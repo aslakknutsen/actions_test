@@ -22,48 +22,7 @@ job: steps
       with: 
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         Skip to content
-Search or jump to…
-Pulls
-Issues
-Marketplace
-Explore
- 
-@Iixixi 
-Your account has been flagged.
-Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
-Iixixi
-/
-actions_test
-Public
-forked from aslakknutsen/actions_test
-Code
-Pull requests
-Actions
-Projects
-2
-Wiki
-Security
-Insights
-Settings
-actions_test/.github/workflows/travis.yml/ci/bitore.sig/Rakefile /
-@Iixixi
-Iixixi Update Rakefile
-Latest commit d0b4076 1 minute ago
- History
- 1 contributor
-319 lines (173 sloc)  5.9 KB
-  
-# This is a basic workflow to help you get started with Actions
-Run: 
-https://github.com/github/super-linter/projects/1#card-42191632 0
-name: ci
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
     branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -101,7 +60,7 @@ pip install intuit-oauth
 
       'matrix:''
 
-        'deno:' ["v1.x", "nightly"]''
+        'deno:' ["v1.x", "Daily]''
 
         'os:' '[macOS'-latest', windows-latest', ubuntu-latest']''
     'steps:''
