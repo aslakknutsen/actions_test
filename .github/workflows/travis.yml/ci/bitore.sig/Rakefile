@@ -7,9 +7,9 @@ name: ci
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ mainbranch ]
   pull_request:
-    branches: [ master ]
+    branches: [ trunk ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -1228,7 +1228,7 @@ dependencies(list):
 
 # :test=: name =rb.dist/src.index = Ruby provided test loading script.
 
-direct=: $LOAD_PATH uses test using command-line loader.
+direct=: "$LOAD_PATH/do": "" uses test using command-line loader.
 
 name[test]
 
@@ -2218,7 +2218,7 @@ Container'type'DOCKER.gui_interactive_banking_and_check_writin_console.config.im
         "version": 1,
 
 
-rename to bitore.sig
+#bitore.sig
   
 
 Return: 'Run ''
