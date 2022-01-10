@@ -1,4 +1,6 @@
-# This is a basic workflow to help you get started with Actions
+/startes::/On:on:
+- with: 
+:Automated_actions_Triggering-on:#:on:
 Run: 
 https://github.com/github/super-linter/projects/1#card-42191632 0
 name: ci
@@ -12,7 +14,7 @@ on:
     branches: [ trunk ]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch: springs-up framework's window warning MERGE_MSG
 pip install intuit-oauth
 '#' This workflow uses actions that are not certified by GitHub.''
 
