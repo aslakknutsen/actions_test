@@ -11,8 +11,23 @@ pip install
 install: 
 - o'Auth 
 Run-on: Mozilla 5.0
-to d: installing...prerequisites...done:
-scdocs-y += \
+to d: installing...diff --git a/.travis.yml b/.travis.yml
+index a2f8eb0..1aad857 100644
+--- a/.travis.yml
++++ b/.travis.yml
+@@ -33,7 +33,7 @@ node_modules
+ $TRAVIS_BUILD_DIR/tmp/.htmlproofer #https://github.com/gjtorikian/html-proofer/issues/381 addons: apt: packages:
+ libxml2-utils install:
+ rb.qm: 2.6.3 --install
+-bundle: rake.i
++bundle: raku.i
+installing: 🔣🔠✨: prerequisites:on:on:
+Instialing...-cd
+ $LOAD_PATH: bitore.sig/paradice/trunk
+Deploying: repositories'@iixixi/iixixii/README.md
+title: Repo Sync: 
+prerequisites:...done:
+scdocs-chore-12-xyz-cherrypick -chef'sbook.api+= \
 
 	apk-cache.5 \	apk-keys.5 \
 
