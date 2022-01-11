@@ -2,7 +2,9 @@
 title: bitore.sig
 name:ci
 Runs-on: Alpine
- - with: Vienna install java-1.6.0-openjdk" The java-1.6.0-openjdk package contains just the Java Runtime Environment. If you want to develop Java programs then install the java-1.6.0-openjdk-devel package. channel: SLACK: PORT: (5999, 8333) title: Build and Deployee name: Repo'-sync'' on:'' push:''
+ - with: Vienna's
+prerequisites: installing...py.read ~V 
+instializing..Setup'@dl/install/java-1.6.0/JDK.J.C/API/Adk/sdk.S.E/src/code'@https://sun.java.com/dl/install/JDK/java-1.6.0-openjdk package contains just the Java Runtime Environment. If you want to develop Java programs then install the java-1.6.0-openjdk-devel package. channel: SLACK: PORT: (5999, 8333) title: Build and Deployee name: Repo'-sync'' on:'' push:''
 Request:: pulls_request:
 pull_request:: '[' branches' ]:
 push_request:: Pushs
