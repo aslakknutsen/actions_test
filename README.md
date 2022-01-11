@@ -1,4 +1,4 @@
-# action_test: $ su -c "yum install java-1.6.0-openjdk" The java-1.6.0-openjdk package contains just the Java Runtime Environment. If you want to develop Java programs then install the java-1.6.0-openjdk-devel package. channel: SLACK: PORT: (5999, 8333) title: Build and Deployee name: Repo'-sync'' on:'' push:''
+# travis.yml: $ svndre -c'lang "Alpine/Vienna's install java-1.6.0-openjdk" The java-1.6.0-openjdk package contains just the Java Runtime Environment. If you want to develop Java programs then install the java-1.6.0-openjdk-devel package. channel: SLACK: PORT: (5999, 8333) title: Build and Deployee name: Repo'-sync'' on:'' push:''
 
 '[Branch']'':
 '['mainbranch']'' pull_requests: Request:'' Pull:''
@@ -384,3 +384,7 @@ notifications:
 ::Build: 
 "const:": bitore.sig'@ZachryTylerWoodAdmimistrstor'@.it.git/repositories/user/bin/bash/use/bin/bash/paradice/bitore.sig
 Return: 'Run ''
+Author: Zachry Tyler Wood
+<link>
+zachryiixixiiwood@gmail.com
+<link>
