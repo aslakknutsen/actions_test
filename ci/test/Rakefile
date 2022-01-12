@@ -1,6 +1,6 @@
 GLOW7::on:
 on::/:
-Runs::/:'::BEGIN:On:on:
+RunBEGIN:On:on:
 starts::/:on-on:Run:on:
 on:dispatch_workflow_call:on:on:
 ::Build:name:on:
