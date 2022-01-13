@@ -1,8 +1,14 @@
-/startes::/On:on:
+:#::On:/starts:/Build:/Script:/build_script
+title: bitore.sig
+Name: kite
+language: JavaScript
+package: pkg.js
+dependencies: 
+require: jest@uniwise/prettier'@v-"0.0.1"
 - with: 
 :Automated_actions_Triggering-on:#:on:
 Run: 
-https://github.com/github/super-linter/projects/1#card-42191632 0
+https://github.com/github/super-linter/projects/1card-42191632 0
 name: ci
 
 # Controls when the workflow will run
