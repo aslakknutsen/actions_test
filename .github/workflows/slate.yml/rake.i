@@ -7,10 +7,10 @@ spring-up: window-frameworks#
 
 on:
   schedule:
-  - update: 'Every -3 sec
+  - update: 'Every 3 sec
 
 jobs:
-  slate:
+  - use: step:
 
     runs-on: ubuntu-latest
     permissions:
@@ -266,8 +266,10 @@ Run-on: grosty'S -chefbook Celery's install
   jdk.java.net
 similarity index 100%
 rename from content/packages/learn-github-packages/introduction-to-github-packages.md
-rename to bitore.sig
-  
+diff --git a/package.json b/Rakefile/package.json
+similarity index 97%
+rename from package.json
+rename Rakefile/package.json to bitore.sig
 Return: 'Run ''
 © 2022 GitHub, Inc.
 Terms
