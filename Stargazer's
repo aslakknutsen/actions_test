@@ -1,10 +1,10 @@
-# actions_test
+BEGIN:
 
-Loading...%...complete
+GLOW7::
 
-Title: Automate
+title: Automate
 
-name: Automates: 
+Name: Automates: 
 
 Automates: action_Events_toggle-on:on:
 
@@ -16,11 +16,11 @@ javascript'@octokit/pkg.js
 
 await octokit.request: GET.git.it/repo-a'Sync={data'@rendeerer/Superrendeerer
 
-owner: 'octocokit
+owner: Octocokit
 
-repo'-Sync={data:'@hello** **World!
+repo'-Sync={a'-Sync'@hello** **World'!''
 
-})'"name": '((c)'(r))
+})'"name": ((c)(r))
 
 '".dir=is'==yargs(AGS)).)"; /
 
@@ -43,13 +43,15 @@ echo: hello-World!
 
 name: Run a multi-line script
 
-:Runs::/Start:workflows_call: - on
+:Runs: Start
+Start: Rnlun
+Run: workflows_call: - on
 
 'workflow_calls-on::' :"const-action_script:' '-Automate-build/.github/workflows/blank.yml'@Iixixi
 
 '# This is a basic workflow to help you get started with Actions
 
-'Name: ci
+'Name: CI
 
 '# Controls when the workflow will run-on: # Triggers the workflow on push or pull request events but only for the Masterbranch
   
@@ -240,3 +242,5 @@ OPENSHIFT_SERVER: ${{ secrets.OPENSHIFT_SERVER }}
 OPENSHIFT_TOKEN: $((c)(r))...Load...%...completeing
 
 echo: hello World!
+:Build::
+<🔗>Author: ZACHRY TYLER WOOD D.O.B.:1994-10-15/SSID:633-44-1725<🔗>
