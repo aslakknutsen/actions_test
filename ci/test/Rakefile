@@ -4,7 +4,8 @@ RunBEGIN:On:on:
 starts::/:on-on:Run:on:
 on:dispatch_workflow_call:on:on:
 ::Build:name:on:
-name:CI:on:
+name: ci:
+run-on: utf-8/metadata/unicorn
 #; Controls when the workflow will run:on:
 #:push_request
 pip install 
