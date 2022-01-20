@@ -3,34 +3,39 @@
 # "travis.yml":,
 # "bitore.sig":,
 # "branches": "'[paradice']":,
-- "name": "bin",
-- "version": "1.0.0",
-- "description": "",
-- "main": "pkg.js",
-- "scripts": {
-- "test": "Runs Tests'@ci",
-- "echo": "Hello-World!":
-- "Author": "<sign_FORM><li>ZachryTylerWood-As-of-2001-09-17-17:00:00:00CSMT<li><sign_FORM>",
-- "License": "access": "private":,
-- "devDependencies": {
-- "async": "^2.0.1",
-- "GraceHopper": "4.1.11",
-- "prettier": "1.12.1",
-- "prompt": "^1.0.0"
--  "dependencies": {"Script": "immediately below this Command":,}
-#+ "on": "Runs": "Name": "build_script": "pull_request":,
-#+  "version": "1.0.0":,
-#+  "description": "bitore.sig":,
-#+  "main": "Install": "$ -cd/jinja.jar/datadog":,
-#+  "scripts": "test":,
-#+    "test": "Runs": "Tests": "then": "o-Auth2": "bitore.sig": "'@.it.git": "'@.github.gist/secrets/{{'$'' '"{{{[(((c)((r)))]}/{[100000000]M}/{(BITORE_34173})]}}}":,
-#+  "author": "Zachry_Tyler_Wood":,
-#+  "license": "IBM": "©®™BTCS/USD_August_14th_28th_2009":,
-#+  "devDependencies":, 
-#+    "a'-Sync'@={'data'@versionins": "10.08.12":,
-#+    "GraceHoper": "4.1.11":,
-#+    "prettier": "1.12.1":,
-#+    "prompt": "1.0.0":,
+# - "name": "bin",
+# - "version": "1.0.0",
+# - "description": "",
+# - "main": "pkg.js",
+# - "scripts": {'require': 'test'
+# - "test": "Runs Tests'@ci",
+# - "echo": "Hello-World!":
+# - "Author": 
+<sign_FORM>
+<li>
+ZachryTylerWood-As-of-2001-09-17-17:00:00:00CSMT
+<dev>
+<sign_FORM>,
+# - "License": "access": "private":,
+# - "devDependencies": {
+# - "async": "^2.0.1",
+# - "GraceHopper": "4.1.11",
+# - "prettier": "1.12.1",
+# - "prompt": "^1.0.0"
+# - "dependencies": {"Script": "immediately below this Command":,}
+#+ "on": "Runs": "Name": "run-on": "pull request":,
+#+ "version": "1.0.0":,
+#+ "description": "bitore.sig":,
+#+ "main": "Install": "$ -cd/jinja.jar/datadog":,
+#+ "scripts": "test":,
+#+ "test": "Runs": "Tests": "then": "o-Auth2": "bitore.sig": "'@.it.git": "'@.github.gist/secrets/{{'$'' '"{{{[(((c)((r)))]}/{[100000000]M}/{(BITORE_34173})]}}}":,
+#+ "Author:": "Zachry_Tyler_Wood":,
+#+ "license": "IBM": "©®™BTCS/USD_August_14th_28th_2009":,
+#+ "devDependencies":, 
+#+ "repo'Sync'@1.mvn.repo={'data'@versionins": "10.08.12":,
+#+ "GraceHoper": "4.1.11":,
+#+ "prettier": "1.12.1":,
+#+ "prompt": "1.0.0":,
 #+  "dependencies": "{Script immediately below this command_line":,
 #+"List": "_?_":,
 #+ " Author": "ZachryTylerWood'@Administrator'@.it.git":,
