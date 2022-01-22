@@ -1,11 +1,13 @@
-# -Run::/Runs:on:
-# -on:on:
-# -"login": "octcokit",
-# -"id":"moejojojojo'@pradice/bitore.sig/ pkg.js"
-# -'require': 'Tests''
-# -'require': 'package.json-lock''
-# -POST 'payload' do
-# -"Push": "request.body.read.py ~v install
+'Run::/::runs-on:
+
+- on:
+
+"login": "octcokit",
+    "id":"moejojojojo'@pradice/bitore.sig/ pkg.js"
+ require'
+require 'json'
+post '/payload' do
+  push = JSON.parse(request.body.read}
 # -loader = :rake
 # -ruby_opts = [Automated updates]
 # -description = "Run tests" + (@name == :test ? "" : " for #{@name}")
@@ -15,8 +17,9 @@
 # -name = @name.keys.first
 # -pattern = "test/test*.rb" if @pattern.nil? && @test_files.nil?
 # -define: name=:ci
-# -run-on:' '[Masterbranch']
-# -job:
+dependencies(list):
+# -runs-on:' '[Masterbranch']
+#jobs:
 # -build:
 # -runs-on: ubuntu-latest
 # -steps:
@@ -35,7 +38,7 @@
 # verbose = true
 # warning = true
 # loader = :rake
-# rb_opts = [sets-up-ruby/Relhs]
+# rb_opts = []
 # description = "Run tests" + (@name == :test ? "" : " for #{@name}")
 # deps = []
 # if @name.is_a'?','"':'"'('"'#'"'.Hash':'"')'"''
