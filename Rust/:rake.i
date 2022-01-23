@@ -1,3 +1,9 @@
+# ZACHRY TYLER WOOD
+
+DOB 10-15-1994 
+
+SSN-633-44-1726
+
 # This workflow uses actions that are not certified by GitHub.  They are
 # provided by a third-party and are governed by separate terms of service,
 # privacy policy, and support documentation.
