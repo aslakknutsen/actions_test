@@ -1,7 +1,8 @@
 # This workflow warns and diff --git a/.github/workflows/npm-grunt.yml b/CI
 similarity index 99%
 rename from .github/workflows/npm-grunt.yml
-rename to CI
+rename to ci
+
 index dffb0d4..2d5d1e7 100644
 --- a/.github/workflows/npm-grunt.yml
 +++ b/CI
