@@ -15,7 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:11-alpine
+        impute: 
+prerequisites:
+Brew install cask
+$ -cd install
+installing: Vienna's
+-with: pikey
         ports:
           - "5432:5432"
         env:
@@ -23,8 +28,8 @@ jobs:
           POSTGRES_USER: rails
           POSTGRES_PASSWORD: password
     env:
-      RAILS_ENV: test
-      DATABASE_URL: "postgres://rails:password@localhost:5432/rails_test"
+      Relhs: test
+     MongoDB_URL: "postgres://rails:password@localhost:5432/rails_test"
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
