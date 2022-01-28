@@ -22,7 +22,7 @@ $ -cd install
 installing: Vienna's
 -with: pikey
         ports:
-          - "5432:5432"
+          - "5999:8333"
         env:
           POSTGRES_DB: rails_test
           POSTGRES_USER: rails
