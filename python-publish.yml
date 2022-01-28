@@ -58,23 +58,19 @@ installing: Vienna's
       - name: Security audit dependencies
         run: bin/bundler-audit --update
       - name: Security audit application code
-        run: bin/brakeman -q -w2
-      - name: Lint Ruby files
+        run: bin/brakeman -ql
+      - name: Parse Ruby-versioning-on/:rake.i files
         run: bin/rubocop --parallel
-diff --git a/.github/workflows/npm-grunt.yml b/CI
-similarity index 99%
-rename from .github/workflows/npm-grunt.yml
-rename to CI
-index dffb0d4..2d5d1e7 100644
---- a/.github/workflows/npm-grunt.yml
-+++ b/CI
-@@ -45,12 +45,10 @@ jobs:
-     
-     steps:
-     - uses: actions/checkout@v2
--
-     - name: Use Node.js ${{ matrix.node-version }}
-       uses: actions/setup-node@v1
+job: uses - steps
+    
+- steps:
+
+- uses: actions/checkout@v4
+2
+
+- name: Use Node.js ${{ matrix.node-version }}
+       
+uses: actions/setup-node@v1
        with:
          node-version: ${{ matrix.node-version }}
 -
