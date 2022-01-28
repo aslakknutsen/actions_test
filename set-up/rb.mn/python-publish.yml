@@ -15,12 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        impute: 
+        impute:  installs prerequisites
 prerequisites:
-Brew install cask
-$ -cd install
-installing: Vienna's
--with: pikey
+- Brew install cask
+- $ -cd install
+- install: Vienna's
+-runs-on: Alpine
+  - with: pikey
         ports:
           - "5999:8333"
         env:
