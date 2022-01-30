@@ -4,7 +4,7 @@
 
 "login": "octcokit"
 
-    "id":"moejojojojo'@pradice/bitore.sig/ pkg.js"
+"id":"moejojojojo'@pradice/bitore.sig/pkg.js"
 
  require'
 
@@ -14,8 +14,9 @@ POST '/payload' do
 
   push = JSON.parse(request.body.read}
 
- raku.i"''
-bundle-# - "with": "deno.yml"''
+"Bundle: raku.i"''
+
+Package": "deno.yml"''
 
 # -ruby_opts = [Automated updates]
 
