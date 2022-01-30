@@ -10,7 +10,7 @@
 
 require 'json'
 
-post '/payload' do
+POST '/payload' do
 
   push = JSON.parse(request.body.read}
 
