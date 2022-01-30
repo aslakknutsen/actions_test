@@ -1,22 +1,28 @@
- ## Automate-toggle:-on:on:
+## Automate-toggle:-on:Start:Runs:
+
+PRESSES
+ 
+::/RunsRuns:
+
 # - "const-action_script-Automate-build"''
+
 # - "
 
-"login": "octcokit"
+LOGIN octcokit
 
-"id":"moejojojojo'@pradice/bitore.sig/pkg.js"
+USERNAME: moejojojojo'@pradice/bitore.sig/pkg.js
 
- require'
+'"REQUIRE": "tests"
 
-require 'json'
+'"require':  'json'"''
 
 POST '/payload' do
 
   push = JSON.parse(request.body.read}
 
-"Bundle: raku.i"''
+Bundle: raku.i
 
-Package": "deno.yml"''
+Package: slate.yml
 
 # -ruby_opts = [Automated updates]
 
