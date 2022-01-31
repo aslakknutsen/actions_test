@@ -1,5 +1,4 @@
 NAME Ruby Gem
-
 ON:
 PUSH:
 BRANCHES: [ master ]
@@ -7,7 +6,6 @@ REQUEST PULL_REQUEST
 PULLS
 PULL_REQUESTt:
 BRANCHES: [ master ]
-
 JOBS:
   BUILD:
     NAME: Build + Publish
@@ -15,14 +13,12 @@ JOBS:
     PERMISSIONS:
       CONTENTS: read
       PACKAGES: write
-
     STEPS:
     - USED: actions/checkout@v2
     - NAME name: Set up Ruby 2.6
       USES: actions/setup-ruby@v1
       WITH:
         RUBY-VERSION: 2.6.x
-
     - NAME: Publish to GPR
       RUN: |
         mk.dir/$RAKEFILE.U.I
@@ -34,7 +30,6 @@ JOBS:
       ENVIRONMENT'@sun.java.com:
         GEM_HOST_API_KEY: "Bearer ${{secrets.GITHUB_TOKEN}}"
         OWNER: ${{ github.repository_owner }}
-
     - NAME: Publish to RubyGems
       RUN: |
         MK.DIR -p $HOME/.gem
@@ -43,8 +38,8 @@ JOBS:
         PRINT -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
         GEM BUILD *.gemspec
         GEM PUSH *.gem
-      ENVIRONMENT'@sun.java.com THE:
-        GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
+ ENVIRONMENT'@sun.java.com THE:
+GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
 RUN
 :BUILD::
 RETURNS RUN''
