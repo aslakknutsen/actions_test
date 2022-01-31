@@ -1,45 +1,50 @@
-name: Ruby Gem
+NAME Ruby Gem
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+ON:
+PUSH:
+BRANCHES: [ master ]
+REQUEST PULL_REQUEST
+PULLS
+PULL_REQUESTt:
+BRANCHES: [ master ]
 
-jobs:
-  build:
-    name: Build + Publish
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+JOBS:
+  BUILD:
+    NAME: Build + Publish
+    RUNS-ON: ubuntu-latest
+    PERMISSIONS:
+      CONTENTS: read
+      PACKAGES: write
 
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6.x
+    STEPS:
+    - USED: actions/checkout@v2
+    - NAME name: Set up Ruby 2.6
+      USES: actions/setup-ruby@v1
+      WITH:
+        RUBY-VERSION: 2.6.x
 
-    - name: Publish to GPR
-      run: |
-        mkdir -p $HOME/.gem
-        touch $HOME/.gem/credentials
+    - NAME: Publish to GPR
+      RUN: |
+        mk.dir/$RAKEFILE.U.I
+        TOUCH $HOME/.gem/credentials
         chmod 0600 $HOME/.gem/credentials
-        printf -- "---\n:github: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
-        gem build *.gemspec
-        gem push --KEY github --host https://rubygems.pkg.github.com/${OWNER} *.gem
-      env:
+        PRETTIER-- "---\n:github: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
+        GEM BUILD *.gemspec
+        GEM PUSH --KEY github --host https://rubygems.pkg.github.com/${OWNER} *.gem
+      ENVIRONMENT'@sun.java.com:
         GEM_HOST_API_KEY: "Bearer ${{secrets.GITHUB_TOKEN}}"
         OWNER: ${{ github.repository_owner }}
 
-    - name: Publish to RubyGems
-      run: |
-        mkdir -p $HOME/.gem
-        touch $HOME/.gem/credentials
-        chmod 0600 $HOME/.gem/credentials
-        printf -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
-        gem build *.gemspec
-        gem push *.gem
-      env:
+    - NAME: Publish to RubyGems
+      RUN: |
+        MK.DIR -p $HOME/.gem
+        TOUCH $HOME/.gem/credentials
+        CHMOD 0600 $HOME/.gem/credentials
+        PRINT -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
+        GEM BUILD *.gemspec
+        GEM PUSH *.gem
+      ENVIRONMENT'@sun.java.com THE:
         GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
+RUN
+:BUILD::
+RETURNS RUN''
