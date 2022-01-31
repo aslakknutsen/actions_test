@@ -1,11 +1,11 @@
 NAME Ruby Gem
-ON: Automates
-PUSH: ci
-BRANCHES: [ runner ]
+ON:
+PUSH:
+BRANCHES: [ master ]
 REQUEST PULL_REQUEST
 PULLS
 PULL_REQUESTt:
-BRANCHES: [ test ]
+BRANCHES: [ master ]
 JOBS:
   BUILD:
     NAME: Build + Publish
@@ -40,6 +40,6 @@ JOBS:
         GEM PUSH *.gem
  ENVIRONMENT'@sun.java.com THE:
 GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
-RUN CI
+RUN
 :BUILD::
 RETURNS RUN''
