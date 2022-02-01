@@ -1,6 +1,58 @@
- ## You can adjust the behavior by modifying this file.
- ## For more information, see:
- ## htps://github.com/actions/slate
+ 
+/
+paradice-
+Private
+generated from Iixixi/rake
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+ci #3
+ Open
+Iixixi wants to merge 1 commit into master from tests
++9 −1 
+ Conversation 0
+ Commits 1
+ Checks 0
+ Files changed 1
+Conversation
+@Iixixi
+ 
+Spammy
+Iixixi commented 22 seconds ago
+No description provided.
+
+# @Iixixi
+ci
+758fd07
+@Iixixi Iixixi closed this now
+@Iixixi Iixixi reopened this now
+Merge state
+Add more commits by pushing to the tests branch on Iixixi/paradice-.
+
+This branch has conflicts that must be resolved
+ to resolve conflicts before continuing.
+Conflicting files
+CONTRIBUTING.rdoc
+ or view .
+Checkout via command line
+If you cannot merge a pull request automatically here, you have the option of checking it out via command line to resolve conflicts and perform a manual merge. However, the following steps are not applicable if the base branch is protected.
+
+git@github.com:Iixixi/paradice-.git
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b tests origin/tests
+git merge master
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff tests
+git push origin master
 name: slate
 on: 
 Run:
