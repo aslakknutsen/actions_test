@@ -1,11 +1,5 @@
-# actions_test
-From 7f51c5fa8af81a257c335478684edfd720fe456c Mon Sep 17 00:00:00 2001
-From: Zachry T Wood BTC-USD FOUNDER DOB 1994-10-15
- <zachryiixixiiwood@gmail.com>
-Date: Sat, 22 Jan 2022 18:31:55 -0600
-Subject: [PATCH] Rename npm-grunt.yml to CI
-
----
+# ms-settings:network-wifi?activationSource=SMC-IA-402651From 7f51c5fa8af81a257c335478684edfd720fe456c Mon Sep 17 00:00:00 2001From: Zachry T Wood BTC-USD FOUNDER DOB 1994-10-15From <zachryiixixiiwood@gmail.com>Sat, 22 Jan 2022 18:31:55 -0600Subject: [PATCH] Rename npm-grunt.yml to CI
+---.github/docs/tree/main
  .github/workflows/npm-grunt.yml => CI | 2 --
  1 file changed, 2 deletions(-)
  rename .github/workflows/npm-grunt.yml => CI (99%)
