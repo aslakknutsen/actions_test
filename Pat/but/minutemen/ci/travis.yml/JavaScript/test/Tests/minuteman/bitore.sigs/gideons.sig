@@ -1,5 +1,4 @@
-#:#::On::'Runs::/Starts:workflow_calls:
--on:
+#:#::On::'Runs::/Starts:workflow_calls:-on'"''
 'workflow_calls-on::' :"const-action_script:' '-Automate-build/.github/workflows/blank.yml'@Iixixi
 '# This is a basic workflow to help you get started with Actions
 'Name: CI
