@@ -46,29 +46,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Install Ruby and gems
-        uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
-        with:
-          bundler-cache: true
-      # Add or replace any other lints here
-      - name: Security audit dependencies
-        run: bin/bundler-audit --update
-      - name: Security audit application code
-        run: bin/brakeman -q -w2
-      - name: Lint Ruby files
-        run: bin/rubocop --parallel
-diff --git a/.github/workflows/npm-grunt.yml b/CI
-similarity index 99%
-rename from .github/workflows/npm-grunt.yml
-rename to CI
-index dffb0d4..2d5d1e7 100644
---- a/.github/workflows/npm-grunt.yml
-+++ b/CI
-@@ -45,12 +45,10 @@ jobs:
-     
+        uses: 
      steps:
      - uses: actions/checkout@v2
 -
-     - name: Use Node.js ${{ matrix.node-version }}
+     - name: Use NODEPACKAGE.json
        uses: actions/setup-node@v1
        with:
          node-version: ${{ matrix.node-version }}
