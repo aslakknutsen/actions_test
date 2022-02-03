@@ -1,12 +1,9 @@
-Documentation	
-The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC.
-Label
-Engineering's
-Zachry Tyler Wood 
-Terse Label	
-Vscode
-Entry Registrant Name
-GitHub
+Documentation: of
+The: exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC. : ZachryTylerWood/vscode
+Label: Engineerings
+Author: Zachry Tyler Wood 
+Terse: Cisco/ZachryTylerWood/vscode
+Entry Registrant : GitHub
 Period ending Date: 2021/09/28
 Type : Employer Id Item Type
 Documentation : The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), is a unique 9-digit value assigned by the IRS.
